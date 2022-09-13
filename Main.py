@@ -7,10 +7,10 @@ def selectionSort(array, size) -> List[int]:
       if(array[j]<array[min]):
         min=j;
         temp=0;
-        temp=array[i];
-        array[i]=array[min];
-        array[min]=temp;
-        return array
+      temp=array[i];
+      array[i]=array[min];
+      array[min]=temp;
+  return array
   
 
 # Do not change the following code
